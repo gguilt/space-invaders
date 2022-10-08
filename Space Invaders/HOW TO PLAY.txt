@@ -1,0 +1,16 @@
+Arrow keys: Moving your player.
+Space key: Firing laser shoot.
+B key: Firing 105mm bullet. (More effective than laser in game universe)
+P key: Pause the game.
+ESC: Quit from game. (Only if game is over or paused)
+
+Every level up, you got new health and a new 105mm ammo. Your laser only shoot when
+	previous shoot touched anything. (Invaders or screen.)
+
+Scoreboard has a problem, not saving your name after you enter your name. So scoreboard only
+	shows you the scores, not who get this. Sorry about that.
+
+I'm not planning publishing this game. If you get this game, i hope you're enjoy.
+
+- me the coder
+ps: sorry about my english, i'm not native speaker.

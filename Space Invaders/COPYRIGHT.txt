@@ -1,0 +1,14 @@
+[Media]
+All game images created by me, do not steal them.
+Fipps-regular and VCR_OSD_MONO fonts downloaded & they are 100% free.
+
+[Game]
+Game programmed by me with Lazy Foo's tutorials.
+
+[Special thanks]
+Lazy Foo' for tutorials, he/she is my savior, my sensei.
+Special thanks to you. Thanks for playing!
+ + Do not publish it with your name or something like that.
+
+- me the coder
+ps: sorry about my english, i'm not native speaker.

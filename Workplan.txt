@@ -1,0 +1,27 @@
+
+Space Invaders / Planning developments:
+
+Modelling - Art:
+ - Character		:: 	OK
+ - Ammo x4			:: 	OK
+ - Invader x3		:: 	OK
+ - UFO				:: 	OK
+ - Walls x4			::	OK (CHANGED MIND)
+ 
+Programming:
+ - Defence walls	::	OK 
+ - Shoot system		:: 	OK
+ - Level ups		:: 	OK
+ - Pause			:: 	OK
+ - Scoreboard		::
+ - Savescore		::
+ - Invader speedup	::	OK 
+ - UFO				:: 	OK
+ - Player death		:: 	OK
+ - Invader death	:: 	OK
+ - UFO death		:: 	OK
+ - Multi invaders	::  OK
+ - aww yiss bazooka	:: 	OK
+ - Intro update		:: 	OK
+ - Error messages	:: 
+ - Review code		::
