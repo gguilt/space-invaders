@@ -1,3 +1,0 @@
-If you do this, game show you runtime errors. Don't do that. Don't.
-If you want to change image, you can change them in any image editor.
-All images type is BMP. Be sure you save them with this.

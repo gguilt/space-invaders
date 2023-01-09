@@ -48,9 +48,9 @@
 #include <random>
 #include <string>
 #include <sstream>
-#include "SDL.h"
-#include "SDL_image.h"
-#include "SDL_ttf.h"
+#include "SDL2/SDL.h"
+#include "SDL2/SDL_image.h"
+#include "SDL2/SDL_ttf.h"
 
 #define ERROR_MESSAGES // Wanna disable? Add // to beginning of the line.
 #define WARNING_MESSAGES // Same as error messages.
