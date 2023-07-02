@@ -35,7 +35,7 @@ public:
         // Create renderer
         renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
         if (renderer == nullptr) {
-            SDL_LogError(SDL_LOG_CATEGORY_APPLICATION, "Couldn't create renderer: %s", SDL_GetError());
+            SDL_LogError(SDL_LOG_CATEGORY_APPLICATION, "[error] Couldn't create renderer: %s", SDL_GetError());
             SDL_DestroyWindow(window);
             SDL_Quit();
             return false;
