@@ -16,7 +16,7 @@ class Game {
 public:
     Game() : window(nullptr), renderer(nullptr) {}
 
-    bool Initialize()
+    bool Initialize(const char* title, int width, int height)
     {
         // Initialize SDL
         if (SDL_Init(SDL_INIT_VIDEO) < 0) {
@@ -25,7 +25,7 @@ public:
         }
 
         // Create window
-        window = SDL_CreateWindow("Space Invaders", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, WINDOW_WIDTH, WINDOW_HEIGHT, SDL_WINDOW_SHOWN);
+        window = SDL_CreateWindow(title, SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, width, height, SDL_WINDOW_SHOWN);
         if (window == nullptr) {
             SDL_LogError(SDL_LOG_CATEGORY_APPLICATION, "[error] Couldn't create window: %s", SDL_GetError());
             SDL_Quit();
@@ -103,7 +103,7 @@ int main(int argc, char* argv[])
 {
     Game game;
 
-    if (game.Initialize()) {
+    if (game.Initialize("Space Invaders", WINDOW_WIDTH, WINDOW_HEIGHT)) {
         game.Run();
     }
 
